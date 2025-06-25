@@ -17,8 +17,8 @@ const SpeakersPage = () => {
       topic: "Navigating Travelling Requirements for DevRels in Africa"
     },
     {
-      image: "/shodipo.png",
-      name: "Shodipo Ayomide", 
+      image: "/him.png",
+      name: "xxx xxx", 
       topic: "Crafting & Championing Global Developer Programs"
     }
   ];
@@ -46,8 +46,8 @@ const SpeakersPage = () => {
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <div className="absolute bottom-0 left-0 right-0 p-6 text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
-                  <h3 className="text-2xl font-bold mb-2">{speaker.name}</h3>
-                  <p className="text-lg opacity-90">{speaker.topic}</p>
+                  <h3 className="text-2xl font-bold mb-2 tracking-tight">{speaker.name}</h3>
+                  <p className="text-lg opacity-90 tracking-tight">{speaker.topic}</p>
                 </div>
               </div>
             </div>
