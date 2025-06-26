@@ -21,26 +21,6 @@ const coolvetica = localFont({
 export const metadata = {
   title: "TheDevRelCamp",
   description: "The Community for Developer Relations Professionals ✦ Trainings ✦ Mixers & Meetups",
-  metadataBase: new URL('https://thedevrelcamp.com'),
-  alternates: {
-    canonical: '/',
-    languages: {
-      'en-US': '/en-US',
-    },
-  },
-  robots: {
-    index: true,
-    follow: true,
-    nocache: false,
-    googleBot: {
-      index: true,
-      follow: true,
-      noimageindex: false,
-      'max-video-preview': -1,
-      'max-image-preview': 'large',
-      'max-snippet': -1,
-    },
-  },
 };
 
 export const viewport = {
