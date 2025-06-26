@@ -28,9 +28,6 @@ export const metadata = {
       'en-US': '/en-US',
     },
   },
-  openGraph: {
-    images: '/og-image.png',
-  },
   robots: {
     index: true,
     follow: true,
