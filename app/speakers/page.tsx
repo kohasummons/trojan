@@ -12,8 +12,13 @@ const SpeakersPage = () => {
       topic: "Workshop: Video Production for Developer Advocates"
     },
     {
+      image: "/ekene.png",
+      name: "Ekene Eze",
+      topic: "Scaling Your DevRel Impact for Career Growth: The journey from beginner to Director of DevRel"
+    },
+    {
       image: "/trust.png", 
-      name: "Trust Jamin",
+      name: "Trust Jamin Okpukoro",
       topic: "Navigating Travelling Requirements for DevRels in Africa"
     },
     {
